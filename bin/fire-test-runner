@@ -299,6 +299,7 @@ def run(tests, options)
       puts "#{$!.class}: #{$!}"
       puts $@
     end
+    exit runner.exit_code
   end
 end
 
